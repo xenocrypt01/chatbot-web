@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Smart Chatbot</title>
+  <style>
+    body { font-family: Arial; background: #111; color: #fff; }
+    #chatbox { max-width: 600px; margin: 50px auto; }
+    #messages { border: 1px solid #333; padding: 20px; min-height: 300px; background: #222; overflow-y: scroll; }
+    input { width: 80%; padding: 10px; }
+    button { padding: 10px; }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+    <h2>Talk to My Bot</h2>
+    <div id="messages"></div>
+    <input id="userInput" placeholder="Type a message..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
